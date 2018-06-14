@@ -1,0 +1,5 @@
+com\cgi\gitlab\issues\App.class
+com\cgi\gitlab\issues\test\Test.class
+com\cgi\gitlab\issues\test\odd.class
+com\cgi\gitlab\issues\model\Issue.class
+com\cgi\gitlab\issues\test\CSVTest.class

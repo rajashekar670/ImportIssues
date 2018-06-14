@@ -1,0 +1,209 @@
+"Setting up Env for Aurora, Supply Force and Dry run for that Clients",,,,,2018-06-08,,,,0
+Daily Scrum Meeting,Daily Scrum Meeting,,,,2018-02-05,,,,0
+Create Framework to Sync C4C to AX,Create Framework to Sync C4C to AX,,566196,,2017-11-14,,,,0
+C4C : Employee Master Data replicating from AX to C4C,Employee Master Data replicating from AX to C4C,,566196,,2017-11-07,,,,0
+Understanding reporting lines,Understanding reporting lines,,566196,,2017-11-06,,,,0
+C4C Customer replicating from AX to C4C,Customer replication from AX to C4C,,566196,,2017-08-22,,,,0
+SAP Hybris Integration with C4C,,,566196,,2018-01-18,,,,0
+C4C - SSL Certificate and SSL Handshake,"1. Create PSE in SAP ERP
+2. Create Certificate Request (CSR - Certificate Signing Request)
+3. Get the Certificate signed by Certificate Authority.         *http://www.entrust.net/cisco*
+4. Import the Certified certificate into SAP ERP.
+5. Add the Certificate to Database
+6. Export or Download Baltimore Cyber Trust Root Certificate of HCI.
+7. Import Cyber Trust Root Certificate into SAP ERP (STRUST)
+8. ",,566196,,2017-05-12,2017-11-30,,,24
+ERP - C4C Integration through HCI,,,566196,,2017-03-13,,,,25
+C4C- Research on initialize C4C instance,Find options to initialize C4C instance to get it back to initial state and remove all test data.,,566196,,2017-11-13,,,,0
+Remember me option while login in Hybris PCS,,,566198,,2018-06-04,,,,0
+Static page implementation in Hyrbis PCS,,,566198,,2018-06-04,,,,0
+EDI 850 purchase order integration with hybris,,,566198,,2018-05-28,,,,0
+"Set default pick up location , payment method and shipping address for Customer",,,566199,,2018-04-24,,,,0
+C4C - Create a product in C4C using available web-service,,,566199,,2017-10-05,,,,0
+C4C - Integration capabilities for 3rd party software,3rd party software  available for C4C?,,566199,,2017-10-05,,,,0
+C4C - Exploring Promotions,,,566199,,2017-10-17,,,,0
+Move punchout  setup from 192.168.2.141  to 192.168.2.148 box,"B2B punchout code setup is done in 192.168.2.141 box.
+Need to move the code base to 192.168.2.148 box",,566199,,2018-03-07,,,,0
+Move C4C setup from 192.168.1.63 to 192.168.2.148 box,"In 192.168.1.63, we have already setup for C4C with Hyrbris.
+We need to move to the code base to 192.168.2.148 box.",,566199,,2018-03-07,,,,0
+Intial / Update data using intermediate table approach,"Back end system will put the data in the intermediate table.
+On the data hub server will run procedures to get data from tables and load the data into Hybris.",,566199,,2018-03-07,,,,0
+Updating selenium scripts for existing functionality in Briggs Site,,,566199,,2017-12-04,,,,0
+Selenium script for Briggs site,,,566199,,2017-12-04,,,,0
+Cache the latitude and longitude for Geo location,"Use hybris cache to store latitude and longitude for Geo location.
+https://help.hybris.com/6.5.0/hcd/8be98ee4866910149df8be0aab4d0b62.html",,566199,,2017-11-15,,,,0
+Create Selenium scripts for  ABC site,,,566199,,2017-09-27,,,,8
+Setup Flyer for ABC site,,,566199,,2018-03-15,,,,0
+Setup Bundling Product in ABC site,,,566199,,2018-03-15,,,,0
+Replicate Contact person(B2B Customer ) address (CP),,,566199,,2017-10-12,,,,0
+Replicate Customer data from SAP ERP to Hybris,,,566199,,2017-10-09,,,,0
+Receiving IDoc (Inbound) from Data Hub to SAP ERP system,"Tasks To Do
+
+# Receive B2B Customer
+# Receive Sales Order
+# Receive Promotion",,566199,,2017-07-19,,,,0
+SAP ERP monthly Backup of 192.168.1.19 Box (July 2017),,,566199,,2017-07-13,2017-07-14,,,4
+C4C - Configurations on ERP,"* Maintain service for IDoc
+* Register service for SOAP Runtime
+* Configure service on SOAMANAGER
+* Create required services from SOAMANAGER
+* Define Number Range
+* Create System User for COD Integration and assign Roles
+* Create Logical system
+* Define Outbound Process code
+* Create Connectivity - RCOD_CREATE_CoNNECTIVITY_MW",,566199,,2017-04-17,,,,0
+C4C - Setup Demo environment,,,566199,,2017-01-17,,,,2
+Mobile - Verifying Bar Code Scanner functionality on android.,Verifying *Bar Code Scanner* functionality on latest *Hybris Commerce android app*.,,566199,,2018-01-18,2018-01-25,,,24
+ Mobile - Bar Code Scanner code changes for iPhone app to load Product Specific page.,Verifying Bar Code Scanner functionality on latest Hybris Commerce android app.,,566199,,2018-01-25,,,,0
+Add service to load Variant product data,,,566199,,2018-01-31,,,,0
+Add service to load Credit card information,,,566199,,2018-01-31,,,,0
+Create multiple consignments for a single order in SAP ERP,,,566199,,2018-02-15,,,,0
+Intial / Update data using excel file template,"We need to build one file template to load data using excel.
+Back end system will export the data in to excel as the template format.
+Data hub uses the excel to load the data.",,566199,,2018-03-07,,,,0
+Testing : Order creation is failing with account payment,,,566199,,2018-03-07,,,,0
+Data Load using Excel file : Create category excel and load the file,,,566199,,2018-03-09,,,,0
+Create procedure to load Product data,,,566199,,2018-03-14,,,,0
+Create procedure to load Category data,,,566199,,2018-04-02,,,,0
+Create procedures to load data from intermediate table to Hybris,,,566199,,2018-03-14,,,,0
+Data Load using intermediate table : Load the data from category table,,,566199,,2018-03-09,,,,0
+Implement Device Detection in PCS,,,566199,,2018-05-14,,,,0
+Setting up punch out in 192.168.2.141 box,,,566199,,2018-05-25,,,,0
+C4C - Quote replication from Hybris to c4c.,,,566199,,2017-10-05,,,,0
+6.5 - Android App - Payment and Delivery Forms in Checkout page are working only in Android 8 (OREO) version,"[[image:dT2GP0Vt8r54dddmr6QqzO|androidv7.PNG]]
+[[image:d4dyygVt8r55f8acwqjQXA|androidv7-1.PNG]]
+When clicking on the Form and again pressing the back button making the app to crash.
+This is happening in android version which are less than 8.0 version",,566199,,2017-10-30,,,,0
+Testing: Getting error while placing order intermittently,"[[image:cWBDwSV4qr57y3dmr6QqzO|replenishment.PNG]]
+",,566200,,2017-11-02,,,,0
+Change solr search request to get the Content and Product data in Search results,"After entering the text from search box in home page, need to generate search request to hit solr to get Content and Product data in Search results",,566200,,2017-11-14,,,,0
+Change solr search response to display the Content and product data in Search results page,"After getting the Solr , need to generate Search response to display the Content and Product data in Search results page ",,566200,,2017-11-14,,,,0
+Consolidating content and products SOLR search,"Configure hybris to use two indexes, one per page type. The results will also be  grouped by page type.
+[[image:ae8ub2VFWr54Bcdmr6QqzO|image.png]]
+
+
+https://hybrismart.com/2016/06/02/consolidating-content-and-products-solr-search/",,566200,,2017-10-31,,,,0
+Add additional search capabilities to Order History page,"Current search allows searching orders by Product code. 
+Add Date#, Order#, Order status#  search capabilities",,566200,,2017-09-01,,,,40
+Data import,Update the excel master data sheet.,,566200,,2017-07-03,,,,104
+Address validation with Fedex,,,566200,,2017-07-24,,,,40
+ Import/Export from Product cockpit,Import/Export from Product cockpit.,,566200,,2017-07-13,,,,10
+Upgrade Google analytics to Universal Analytics,"Benefits of Universal Analytics:
+# Connect multiple devices, sessions, and engagement data with the User ID.
+# Get a new and more flexible tracking code that lets you collect data from any digital device.
+# Use simplified and more accessible configuration options.
+# Create custom dimensions & custom metrics to collect data that's unique to your business.
+# Implement Enhanced Ecommerce.
+# Stay up to date with new features and updates.
+
+https://support.google.com/analytics/answer/2790010?hl=en
+
+Follow the details to upgrade google analytics to universal analytics-
+https://developers.google.com/analytics/devguides/collection/upgrade/?hl=en
+",,566200,,2017-09-20,,,,0
+Tax integration with Vertex,,,566200,,2017-07-24,,,,60
+SAP Hybris Marketing  - Integration with Commerce ,SAP Hybris Marketing Integration with Commerce  - B2B,,566200,,2016-09-16,,,,200
+B2B PunchOut ,,,566200,,2016-06-20,,,,0
+CSR giving a special price for item(s) in the order,,,566200,,2016-04-26,,,,0
+Change DEFAULT_FEED to custom feed for price while sending Price data from ERP to Hbris,"[[image:cOlOh24iCr57aOacwqjQYw|image.png]]
+
+https://help.hybris.com/6.6.0/hcd/8c50148a866910149524b348be2ed1ef.html",,566200,,2017-12-14,,,,0
+Image Search functionality to PCS,"Found LIRA as one of the way 
+http://www.lire-project.net/#
+https://blog.mayflower.de/1755-Image-similarity-search-with-LIRE.html
+
+Running sample program to understand the API
+",,566200,,2017-10-26,,,,0
+UPS shipping services integration,Integrate with UPS for Shipping services using CIS.,,566200,,2017-08-21,,,,24
+Sync C4C Contacts to Hybris Storefront synchronously.,,,566200,,2017-10-17,,,,40
+Integrate Assembla with Jenkins,,,566200,,2017-07-24,,,,0
+Exploring Hybris Merchandising,,,566200,,2017-08-28,,,,0
+SAP Hybris Merchandising,"SAP Hybris Merchandising is a merchandising service for the SAP Hybris Commerce platform. Merchandising uses real-time information and each visitor's context to automate and optimize the merchandising process while providing merchandisers with an easy-to-use user interface so they can control the goals, operation, and behavior of the service. In this way, the best mixes of metric driven product selection can be blended with the merchandiser's insight and experience.",,566200,,2017-08-28,,,,16
+Enhancement- Add individual component in Footer section,,,566200,,2017-08-01,,,,8
+Push Master Data from SAP to Hybris C4C,,,566200,,2017-01-17,,,,1
+Customer feedback enhancements,"Change the look and feel of Customer feedback form to make the UI better-
+
+[[image:dwWFFsBr4r55avdmr6CpXy|image.png]]
+
+Customer Feedback form questionnaire-
+1. How easy is it to find products in <Site name>?
+Please provide options 1 to 10, 1 being the least
+2. Rate the overall purchase experience on our site?
+Please provide options - Satisfied, Dissatisfied, Neither Satisfied nor Dissatisfied.
+3. Based on your experience how likely is it that you will recommend us to other customers?
+Please provide options 1 to 5. With 1 being the least
+4. Please tell us the best things that you liked on our site.
+Please provide text box.
+",,566200,,2017-07-20,,,,0
+Rearrange carousels to display content on product details page without scrolling,,,566200,,2017-08-16,,,,0
+Browser Back and forward button issue in Product Compare page,,,566200,,2018-02-13,,,,0
+Implement Log Management,,,566200,,2018-03-27,,,,0
+AOM setup for ABC site,"Reference #1602 
+Tasks:
+1.For AOM we need configure SapOutBondAdapter , SapInbondAdapter ,HTTP and RFC destinations in backoffice.
+2.For AOM we need replicate Customer Data and Product Data from SAP ERP.
+3.To Post the Idoc from hybris we need to use URL /sap/bc/srt/IDoc?sap-client=800
+4.While installing hybris need to install sap_aom_som_b2b_b2c recipes it will install required addons and extensions for AOM.
+5.We can use combinations like synchronus pricing and AOM.",,566200,,2017-07-19,,,,0
+Custom Attributes in YAAS builder for Loyalty,,,566200,,2017-09-18,,,,16
+Change 'Free Delivery' banner in all emails to match with rest of the site,"Currently we are using the Free delivery banner provided by Hybris.
+[[image:c4NQHYRMqr56H0dmr6CpXy|image.png]]
+
+Change the banner to match the rest of the site.",,566200,,2017-10-11,,,,0
+Collect metrics using Dareboost tool,Collect metrics using Dareboost tool,,566200,,2017-09-07,,,,0
+"SEO- Add meta tags, title at page level",,,566200,,2017-10-17,,,,0
+Remove hardcoded storefront in urls,Remove hardcoded storefront name in urls.,,566200,,2017-09-07,,,,0
+Creating Promotions in SAP,"Tasks:
+1.Promtion creation in Hybris
+2.Synching promtions to Sap ERP
+3.Dynamic population of product level promtions while placing order.
+4.Dynamic population of order level promtions while placing order. ",,566200,,2017-07-19,,,,0
+Implement Bazaar voice,"Bazaarvoice is a network that connects brands and retailers to the authentic voices of people where they shop. Each month, more than 400 million people view and share authentic opinions, questions and experiences about 70 million products in the Bazaarvoice network. The company's technology platform amplifies these voices into the places that influence purchase decisions. Network analytics help marketers and advertisers provide more engaging experiences that drive brand awareness, consideration, sales and loyalty. Headquartered in Austin, Texas, Bazaarvoice has offices across North America, Europe and Asia-Pacific. For more information, visit http://www.bazaarvoice.com, read the blog at www.bazaarvoice.com/blog
+
+[[file:cT6UAWHKWr55KvacwqEsg8|Bazaarvoice-for-hybris-EN.pdf]]
+",,566200,,2017-08-21,,,,0
+Hybris Merchandising integration,"SAP Hybris Merchandising is a merchandising service for the SAP Hybris Commerce platform. Merchandising uses real-time information and each visitor's context to automate and optimize the merchandising process while providing merchandisers with an easy-to-use user interface so they can control the goals, operation, and behavior of the service. In this way, the best mixes of metric driven product selection can be blended with the merchandiser's insight and experience. 
+
+https://help.hybris.com/6.4.0/hcd/06c110445126425ca8d5f426d4975b2a.html
+",,566200,,2017-07-24,,,,0
+Create Promotion in SAP,,,566200,,2017-07-25,2017-07-31,,,40
+Register technician on loyalty program,"# Check duplicates on registration
+# Once registration is done user should get offer code in email
+",,566200,,2017-07-18,,,,0
+Setup the redeem catalog for loyalty discount,,,566200,,2017-07-18,,,,0
+Multiple SAP instance connected to Single Hybris Instance,"Research further to find out if its possible to use a single Hybris Instance to connect to different storefronts held by different clients.
+
+The below link documents that we can connect 1 to 1 only. Leaving this ticket open to find out other ways.
+http://scn.sap.com/community/crm/web-channel/blog/2015/10/09/test",,566200,,2015-12-23,,,,1
+DynaTrace,,,566200,,2016-12-14,,,,1
+Research Varnish Caching,,,566200,,2016-12-14,,,,1
+Hybris platform cache,,,566200,,2016-12-14,,,,1
+Research caching in multiple tiers,,,566200,,2016-12-14,,,,1
+Caching for optimal page views per second,,,566200,,2016-12-14,,,,5
+Non Functional Requirements Analysis,,,566200,,2016-12-14,,,,30
+(Jarnail) Sourced products,"Snippet from Jarnail's email-
+""Can our solution handle sourced products? If not, let us remove.""",,566200,,2016-03-16,,,,0
+Run hybris on HANA DB,,,566200,,2015-11-03,,,,7
+Implement fulfillment algorithm account to minimize the number of shipments,"Hybris offers off the box the basic solutions supporting order management and consignment. 
+
+In our solution can we implement fulfillment algorithm that would take into account the distance between the warehouse and the consumer and minimize the number of shipments ?
+
+For example, the customer wants to purchase twenty large screen TVs. The system has found six TV’s in one of your stores and four in the other. Since we need another ten TV’s our custom algorithm sends a request to a warehouse to order these additional TV sets. As a result – the customer will get a shipment of all twenty items shipped in a least expensive way.
+
+(Refer to http://flexblog.faratasystems.com/index.php/e-commerce-with-hybris/ )",,566200,,2015-12-23,,,,1
+Enabling schemaless attributes in OMS,"Schemaless attributes are properties that can be added to a component to provide additional information about a product or location.
+
+The location managed object holds information pertaining to a stock room location. Enabling schemaless attributes allows us to customize the properties a managed object contains without modifying the data model.",,566200,,2016-01-28,,,,1
+"Display the MPN, DPN attributes in the Product Cockpit",The MPN/DPN attributes are displaying the hMC. The same should be displayed through the Product Cockpit also.,,566200,,2016-01-21,,,,1
+Replicate Cost centers from SAP ERP to Hybris,"Problem statement-
+1. When registering a new B2BUnit/Company in Hybris the iDOC sent from SAP ERP does not contain Cost center information. (#2143)
+2. When pulling customer data from SAP ERP need to pull the cost centers associated with B2BUnit/Company.
+
+
+https://www.guru99.com/how-to-create-a-new-cost-center.html",,566200,,2017-10-10,,,,0
+Impex to create new bundle templates for Configurable bundles,"By default hybris provides a few bundles for powertools site. We can use these bundle for ABC site too.
+Create new bundles for ABC site and assign ABC site products to it.",,566200,,2017-10-16,,,,0
+Solr Search Questionnaire during discovery phase,"-Prepare a questionnaire to use during discovery phase for Search
+https://hybrismart.com/2017/07/13/explaining-sap-hybrissolr-relevance-ranking-for-phrase-queries/",,566200,,2017-07-17,,,,0
+Create a custom condition in Promotion Engine to validate giveaway coupon against customer,,,566200,,2017-07-31,,,,0
+Convert Guest user to registered customer,,,566200,,2017-07-20,,,,0
